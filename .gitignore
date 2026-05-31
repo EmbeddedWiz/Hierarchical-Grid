@@ -1,0 +1,48 @@
+# Compilation and Build Artifacts
+build/
+bin/
+lib/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+Makefile
+targets.make
+
+# Qt & Qt Creator files
+*.user
+*.user.*
+*.autosave
+Makefile.*
+object_script.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# IDE and Editor files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.filters
+
+# OS Generated files
+.DS_Store
+Thumbs.db
